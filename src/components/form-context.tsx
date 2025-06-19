@@ -75,32 +75,32 @@ export default function FormContext({
                   <span>
                      <Flag color="blue" fill="blue" />
                   </span>
-                  <p className="text-sm">Set as first page</p>
+                  <p className="text-sm font-[500]">Set as first page</p>
                </ContextMenuItem>
                <ContextMenuItem onClick={renameFn}>
                   <span>
                      <PencilLine />
                   </span>
-                  <p className="text-sm">Rename</p>
+                  <p className="text-sm font-[500]">Rename</p>
                </ContextMenuItem>
                <ContextMenuItem onClick={copyFn}>
                   <span>
                      <ClipboardIcon />
                   </span>
-                  <p className="text-sm">Copy</p>
+                  <p className="text-sm font-[500]">Copy</p>
                </ContextMenuItem>
                <ContextMenuItem onClick={dupeFn}>
                   <span>
                      <Copy />
                   </span>
-                  <p className="text-sm">Duplicate</p>
+                  <p className="text-sm font-[500]">Duplicate</p>
                </ContextMenuItem>
                <Separator />
                <ContextMenuItem className="text-red-600" onClick={delFn}>
                   <span>
                      <Trash2 className="text-red-600" />
                   </span>
-                  <p className="text-sm">Delete</p>
+                  <p className="text-sm font-[500]">Delete</p>
                </ContextMenuItem>
             </ContextMenuContent>
          </ContextMenu>

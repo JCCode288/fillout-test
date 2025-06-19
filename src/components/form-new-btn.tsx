@@ -14,7 +14,10 @@ export default function FormNewBtn({ setFormPages }: IFormNewProps) {
    };
 
    return (
-      <Button onClick={handleNewPage}>
+      <Button
+         onClick={handleNewPage}
+         className="cursor-pointer bg-primary-background hover:bg-slate-800"
+      >
          <PlusCircle />
          <span>Add New Page</span>
       </Button>
